@@ -134,6 +134,12 @@ Esto significa que:
 > Todo cambio que Claude haga se reflejará inmediatamente en el sistema de archivos. Este comportamiento es normal y esperado.
 
 
+# You are in...
+
+Ahora estás dentro... muahahaha!!!!!
+
+<img width="2829" height="1149" alt="image" src="https://github.com/user-attachments/assets/1f31cbad-ebe5-47a7-b129-4d7f613d5c42" />
+
 
 
 
