@@ -328,6 +328,71 @@ Este tipo de automatización representa aproximadamente **el 90% de los casos em
 
 
 
+##  💻 Claude Code Mode
+
+
+**Claude Code** es el modo más avanzado dentro del ecosistema de Claude.
+
+Su principal diferencia es que:
+
+> **Claude Code puede generar y ejecutar código directamente por ti.**
+
+Esto representa un cambio importante en la forma tradicional de desarrollar software o automatizar tareas.
+
+Antes, si querías construir algo como una página web o automatizar un proceso, normalmente necesitabas:
+
+1. Explicar la idea a un programador
+2. Esperar a que escribiera el código
+3. Solicitar cambios
+4. Repetir el proceso varias veces
+
+Hoy, **Claude Code cumple ese rol directamente**, permitiéndote solicitar cambios y ejecutar tareas sin depender completamente de otro desarrollador.
+
+
+## 🧰 ¿Dónde se usa Claude Code?
+
+En la práctica, Claude Code se utiliza principalmente dentro de un **IDE (Integrated Development Environment)**
+
+Un **IDE** permite trabajar con archivos y proyectos de código de forma organizada.
+
+Ejemplos comunes:
+
+* **VS Code (Visual Studio Code)**
+* **Antigravity (fork basado en VS Code)**
+* **Notepad++**
+
+Es importante entender que **Claude Code no reemplaza el IDE, sino que se ejecuta dentro del IDE.**
+
+Esto significa que el IDE proporciona el entorno de trabajo, mientras que Claude Code proporciona la inteligencia y automatización.
+
+## 💳 Requisitos para usar Claude Code
+
+Para utilizar Claude Code es necesario contar con un **paid Claude plan**.
+
+Planes comunes:
+
+* **Pro Plan** → suficiente para la mayoría de usuarios
+* **Max Plan** → recomendado para uso intensivo o múltiples tareas simultáneas
+
+Para comenzar, **el Pro Plan suele ser suficiente**.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
