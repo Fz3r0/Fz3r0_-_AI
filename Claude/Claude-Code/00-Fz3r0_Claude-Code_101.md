@@ -23,6 +23,10 @@
 
 # 🧪⚙️🤖 Anthropic - Claude Code 101
 
+Este write-up documenta las bases del ecosistema de **Claude**, incluyendo sus modos de interacción, capacidades de integración y fundamentos necesarios antes de comenzar a trabajar con **Claude Code** en escenarios reales.
+
+El objetivo es construir una comprensión sólida del entorno completo antes de avanzar hacia workflows avanzados, automation y desarrollo asistido por **AI**.
+
 
 ## 🧠 Introducción al Ecosistema de Claude
 
@@ -37,13 +41,12 @@ Cuando ingresamos a **Claude**, normalmente encontraremos **tres tipos principal
 Cada uno de estos modos representa un **nivel distinto de complejidad**, desde conversaciones simples hasta workflows avanzados de automatización.
 
 
+
 ## 🔌 Connectors (Una de las capacidades más importantes)
 
 Una de las características más potentes de Claude es su capacidad para integrarse con herramientas externas mediante el uso de **connectors**.
 
-Estos **connectors** permiten que Claude interactúe directamente con servicios reales y datos externos.
-
-## 🧰 Ejemplos comunes de connectors
+Estos **connectors** permiten que Claude interactúe directamente con servicios reales y datos externos, extendiendo su funcionalidad más allá de simples respuestas de texto.
 
 Claude puede conectarse con herramientas como:
 
@@ -65,11 +68,11 @@ Esto permite que Claude:
 Esto es lo que convierte a Claude en algo más que un chatbot tradicional.
 
 
+
+
 ## 🧩 MCP Servers (Model Context Protocol Servers)
 
-Además de los **connectors estándar**, Claude permite integraciones más avanzadas mediante:
-
-👉 **MCP Servers (Model Context Protocol Servers)**
+Además de los **connectors estándar**, Claude permite integraciones más avanzadas mediante **MCP Servers (Model Context Protocol Servers)**
 
 Los **MCP Servers** permiten:
 
@@ -78,18 +81,14 @@ Los **MCP Servers** permiten:
 * ⚙️ Automatizar workflows complejos
 * 🧠 Extender las capacidades del modelo
 
-Este concepto será explorado más adelante en profundidad, ya que es una pieza clave del ecosistema.
-
-Por ahora, basta con entender que:
-
 > **Los MCP Servers permiten llevar las integraciones a un nivel mucho más avanzado que los connectors tradicionales.**
+
+
 
 
 ## 🧠 Claude Skills
 
-Otro concepto importante dentro del ecosistema es el uso de:
-
-👉 **Skills**
+Otro concepto importante dentro del ecosistema es el uso de **Skills**
 
 Los **Skills** pueden entenderse como:
 
@@ -112,11 +111,17 @@ Es importante entender que cuando Claude no tiene suficiente información para c
 * 📥 Solicitar contexto adicional
 * 🧠 Pedir información faltante
 
-Esto **no es un error**.
+Esto **no es un error**, es un comportamiento diseñado para mejorar la precisión de las respuestas y asegurar que las tareas se ejecuten correctamente.
 
-Es un comportamiento diseñado para mejorar la precisión de las respuestas.
 
-# Claude: Tipos de Interacción (Chat, CoWork, Code)
+
+# 💬 Claude: Tipos de Interacción (Chat, CoWork, Code)
+
+Cada modo de interacción dentro de Claude está diseñado para resolver distintos tipos de problemas, desde tareas simples hasta workflows estructurados y automatización avanzada.
+
+Comprender cuándo usar **Chat**, **CoWork** o **Claude Code** es fundamental para aprovechar correctamente el ecosistema.
+
+
 
 ## 💬 Claude Chat Mode
 
@@ -128,15 +133,11 @@ El **Chat Mode** es la forma más básica de interacción con Claude, similar a 
 
 En este modo ocurre un flujo simple:
 
-### 🔄 Claude Chat Mode: Flujo básico
-
 1. 👤 El usuario escribe un **text input**
 2. 🧠 El modelo procesa la solicitud
 3. 📤 El sistema devuelve un **text output**
 
 Este modelo representa el comportamiento clásico de un **chatbot interaction**, y es la base sobre la cual funcionan los demás modos.
-
-
 
 
 
