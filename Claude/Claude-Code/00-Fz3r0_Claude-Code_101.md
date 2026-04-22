@@ -31,7 +31,7 @@
 
 # 🗃️ Resources
 
-- WWT
+- [CLAUDE CODE 2026: Curso Completo en Español](https://www.youtube.com/watch?v=73eFWU-edO4)
   
 ---
 
