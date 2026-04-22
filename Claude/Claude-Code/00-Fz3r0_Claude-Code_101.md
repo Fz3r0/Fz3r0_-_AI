@@ -130,7 +130,7 @@ Podemos entender los modos de Claude como una progresión natural:
 | 💻 Claude Code | Avanzado   | Control completo del entorno de desarrollo |
 
 
-## 💬 Claude Chat Mode
+# 💬 Claude Chat Mode
 
 El **Chat Mode** es la forma más básica de interacción con Claude, similar a lo que ocurre con otros sistemas como:
 
@@ -169,7 +169,7 @@ En términos prácticos:
 * Más seguro y controlado que **Claude Code**
 * Ideal para automatización basada en archivos
 
-### 📂 Acceso a Carpetas y Archivos
+## 📂 Acceso a Carpetas y Archivos
 
 Una de las capacidades clave de **CoWork Mode** es que permite otorgar acceso a carpetas específicas del sistema.
 
@@ -192,6 +192,8 @@ Una vez autorizado, Claude puede:
 
 Esto abre la puerta a workflows automatizados muy potentes.
 
+---
+
 ### 🧾 Ejemplo práctico: Procesamiento de Facturas (Invoices Workflow)
 
 Un ejemplo típico del uso de **CoWork Mode** es el procesamiento automático de facturas en formato **PDF**.
@@ -209,7 +211,6 @@ Un workflow típico podría ser:
 
 - **🎯 Objetivo del workflow**
    - Procesar automáticamente todas las facturas y generar un informe consolidado.
-
 
 - **📌 Ejemplo de tarea solicitada a Claude = El usuario podría indicar:**
    1. Leer todos los archivos **PDF** dentro de la carpeta
@@ -229,9 +230,8 @@ Este tipo de automatización representa exactamente el tipo de tareas que normal
 
 Ahora pueden ejecutarse automáticamente.
 
----
 
-###  ⚙️ Ejecución de Procesos en Tiempo Real
+##  ⚙️ Ejecución de Procesos en Tiempo Real
 
 Cuando **CoWork Mode** ejecuta una tarea, es posible observar su progreso en tiempo real.
 
@@ -244,9 +244,8 @@ Durante este proceso, Claude puede:
 
 Esto permite visibilidad total del workflow.
 
----
 
-### ✏️ Intervención Manual Durante la Ejecución
+## ✏️ Intervención Manual Durante la Ejecución
 
 Una funcionalidad muy poderosa y poco conocida es la capacidad de intervenir durante la ejecución del workflow.
 
@@ -261,9 +260,9 @@ Por ejemplo: Si el sistema está renombrando archivos, se puede agregar una inst
 
 - 👉 Esta capacidad se conoce como **Workflow Intervention**
 
----
 
-### 🧠 Cola de Tareas (Task Queue)
+
+## 🧠 Cola de Tareas (Task Queue)
 
 Otra capacidad avanzada de **CoWork Mode** es la posibilidad de agregar nuevas tareas mientras otras aún están ejecutándose. Esto permite:
 
@@ -282,9 +281,9 @@ Mientras se procesan facturas, se puede agregar otra tarea como:
 
 Este comportamiento permite crear workflows encadenados sin intervención manual constante.
 
----
 
-### 📱 Dispatch (Acceso Remoto desde Mobile)
+
+## 📱 Dispatch (Acceso Remoto desde Mobile)
 
 Una funcionalidad reciente introducida en **CoWork Mode** es **Dispatch**. Esta funcionalidad permite:
 
@@ -297,7 +296,7 @@ Desde un **mobile device**, incluso cuando la computadora principal sigue ejecut
 
 Esto aumenta la flexibilidad operativa.
 
-### ⏰ Scheduled Tasks (Automatización Programada)
+## ⏰ Scheduled Tasks (Automatización Programada)
 
 Otra capacidad extremadamente útil es la creación de **Scheduled Tasks**. Estas tareas permiten ejecutar workflows automáticamente en momentos definidos.
 
@@ -309,7 +308,7 @@ Ejemplos comunes:
 
 Este comportamiento es conceptualmente equivalente a **cron jobs**. Para quienes tienen experiencia en programación o sistemas Linux, esto resulta muy familiar.
 
-### 🧠 Caso Real de CoWork: Uso Empresarial
+## 🧠 Caso Real de CoWork: Uso Empresarial
 
 En la práctica, la mayoría de empresas que dicen "Necesitamos AI en nuestra empresa". En realidad necesitan es **CoWork workflows**, no necesariamente requieren **Claude Code** completo.
 
