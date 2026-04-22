@@ -162,7 +162,7 @@ Siempre priorizas la experiencia de usuario, el rendimiento, la accesibilidad, q
 
 <img width="2046" height="723" alt="image" src="https://github.com/user-attachments/assets/45c5b23b-3f9e-46f9-b625-712c0d324469" />
 
-Ahora ya se puede empezar a hacer un preyecto, en mi caso haré un lab de un sniffer sencillo, pero primero es importante conocer la opción de 
+Ahora ya se puede empezar a hacer un preyecto, en mi caso haré un lab de un sniffer sencillo, pero primero es importante conocer el modo de planning para **evitar ejecutar acciones y no utilizar tokens, solo pleanear. Esto evita gastar tokens en un futuro...**
 
 
 
