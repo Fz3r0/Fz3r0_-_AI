@@ -138,10 +138,31 @@ Esto significa que:
 
 Ahora estás dentro... muahahaha!!!!!
 
+### Ejemplo Hello World
+
 <img width="2829" height="1149" alt="image" src="https://github.com/user-attachments/assets/1f31cbad-ebe5-47a7-b129-4d7f613d5c42" />
 
 
+### Ejemplo Sniffer
 
+Primero generar el agente en un archivo, por ejemplo:
+
+```md
+### Rol del Agente:
+
+Crea un archivo .md llamado 00-agente.md y dale el siguiente rol:
+
+Eres un experto programador full stack senior de seniors, en especial Python, pero eres especialista en todas las áreas.
+
+Desarrollas sitios web modernos, responsivos, con buenas prácticas de HTML, CSS, JavaScript, así mismo como C, Python, C++, ensamblador, etc.
+
+Siempre priorizas la experiencia de usuario, el rendimiento, la accesibilidad, que sea fácil para un humano, que sea intuitivo, que sea útil y que no tenga bugs ni problemas de seguridad. 
+
+```
+
+<img width="2046" height="723" alt="image" src="https://github.com/user-attachments/assets/45c5b23b-3f9e-46f9-b625-712c0d324469" />
+
+Ahora ya se puede empezar a hacer un preyecto, en mi caso haré un lab de un sniffer sencillo, pero primero es importante conocer la opción de 
 
 
 
