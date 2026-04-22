@@ -74,54 +74,52 @@ Una vez instalada, aparecerá el icono de **Claude Code** dentro de VS Code:
 Después de instalar la extensión:
 
 1. Abrir el panel de **Claude Code**
-2. Seleccionar:
-
-👉 **Sign In**
-
+2. Seleccionar: **Sign In**
 3. Autorizar acceso a tu cuenta Claude
 4. Confirmar que la autenticación fue exitosa
 
 Una vez autenticado, el sistema quedará listo para interactuar con Claude Code. 
 
----
+<img width="1579" height="899" alt="image" src="https://github.com/user-attachments/assets/071fb73f-be77-44a2-a7cb-b326a0ab107f" />
 
-# 🔧 Paso 4 — Crear carpeta de trabajo
 
-Antes de comenzar a usar Claude Code, es recomendable trabajar dentro de una carpeta específica.
+## 🔧 Paso 4 - Crear carpeta de trabajo
 
-En VS Code:
+Antes de comenzar a usar Claude Code, es recomendable trabajar dentro de una carpeta específica. 
 
-1. Seleccionar:
+1. Crear una carpeta nueva: `Fz3r0_claude-code-lab-1` (Esta carpeta será el **workspace inicial**)
 
-👉 **File → Open Folder**
+<img width="669" height="217" alt="image" src="https://github.com/user-attachments/assets/5ae0c7fd-a70a-49f1-a5de-59075b2caae7" />
 
-2. Crear una carpeta nueva:
+2. Utilizarla desde VS Code (Open Folder) 
 
-Ejemplo:
+<img width="1067" height="748" alt="image" src="https://github.com/user-attachments/assets/72bbacb8-b024-46c6-a82e-b18bdb2769d6" />
 
-```text
-claude-code-lab
-```
 
-Esta carpeta será el **workspace inicial**.
 
----
-
-# 🔧 Paso 5 — Primera prueba de funcionamiento
+## 🔧 Paso 5 - Primera prueba de funcionamiento
 
 Una vez abierta la carpeta:
 
-Abrir el panel de Claude Code y escribir:
+<img width="1583" height="898" alt="image" src="https://github.com/user-attachments/assets/862f1adb-f111-4cc4-b95f-2eb5d6fad58a" />
+
+Abrir el **panel de Claude Code** y escribir:
 
 ```text
-Hello Claude, create a simple test file named test.md
+Hello Claude, create a simple test file named test.md with a spicy joke in Mexican spanish.
 ```
 
-Si el sistema responde correctamente y crea el archivo:
+Si el sistema responde correctamente y crea el archivo, **la instalación fue exitosa.**
 
-👉 **La instalación fue exitosa.**
+- **NOTA: Es posible se deban dar permisos adicionales la primera vez para poder hacer cambios en los archivos:**
 
----
+<img width="1584" height="594" alt="image" src="https://github.com/user-attachments/assets/c435fadd-7813-4119-a23a-fc4be373cb96" />
+
+- Una vez que se dan los permisos el archivo .md es creado:
+
+<img width="2183" height="599" alt="image" src="https://github.com/user-attachments/assets/38b59edb-945e-47d9-bdf4-e6533d5688b0" />
+
+
 
 # 🧠 Notas técnicas importantes
 
@@ -133,56 +131,7 @@ Claude Code trabaja directamente con:
 
 Esto significa que:
 
-> Todo cambio que Claude haga se reflejará inmediatamente en el sistema de archivos.
-
-Este comportamiento es normal y esperado.
-
----
-
-# 🚀 Lo siguiente que viene (muy importante)
-
-La siguiente sección lógica en tu write-up será:
-
-# 🧰 Primer Workspace con Claude Code
-
-Ahí vamos a explicar:
-
-* estructura básica del proyecto
-* carpetas iniciales
-* primeros archivos
-* cómo empezar a usar agentes
-
-Y eso ya empieza a ponerse **muy interesante**.
-
----
-
-# 🧠 Comentario honesto
-
-Tu decisión de usar:
-
-👉 **Kali Linux en VMware**
-
-Fue **muy acertada**.
-
-No necesitas otra VM Windows.
-No necesitas complicarte.
-
-Ese entorno te va a servir perfecto para:
-
-* Python
-* automation
-* agentes
-* Claude Code labs
-
-Muy buena intuición ahí.
-
-
-
-
-
-
-
-
+> Todo cambio que Claude haga se reflejará inmediatamente en el sistema de archivos. Este comportamiento es normal y esperado.
 
 
 
