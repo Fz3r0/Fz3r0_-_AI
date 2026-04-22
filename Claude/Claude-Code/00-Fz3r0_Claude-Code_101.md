@@ -17,9 +17,19 @@
 
 # 📄 `Index`
 
+- [🧪⚙️🤖 Anthropic - Claude Code 101](#-anthropic---claude-code-101)
+  - [🧠 Introducción al Ecosistema de Claude](#-introducción-al-ecosistema-de-claude)
+  - [🔌 Connectors (Una de las capacidades más importantes)](#-connectors-una-de-las-capacidades-más-importantes)
+  - [🧩 MCP Servers (Model Context Protocol Servers)](#-mcp-servers-model-context-protocol-servers)
+  - [🧠 Claude Skills](#-claude-skills)
+  - [❓ Clarification Behavior (Comportamiento normal del modelo)](#-clarification-behavior-comportamiento-normal-del-modelo)
 
+- [💬🤝💻 Claude: Tipos de Interacción (Chat, CoWork, Code)](#-claude-tipos-de-interacción-chat-cowork-code)
+  - [💬 Claude Chat Mode](#-claude-chat-mode)
+  - [🤝 Claude CoWork Mode](#-claude-cowork-mode)
+  - [💻 Claude Code Mode](#--claude-code-mode)
 
-
+- [🧠 Conclusiones](#-conclusiones)
 
 # 🧪⚙️🤖 Anthropic - Claude Code 101
 
@@ -382,7 +392,32 @@ Para comenzar, **el Pro Plan suele ser suficiente**.
 
 
 
+# 🧠 Conclusiones 
 
+En este primer capítulo se establecieron las bases necesarias para comprender el ecosistema completo de **Claude** antes de comenzar a trabajar directamente con **Claude Code**.
+
+Se exploraron los tres modos principales de interacción:
+
+- 💬 **Chat Mode** → interacción básica basada en texto  
+- 🤝 **CoWork Mode** → automatización estructurada basada en archivos  
+- 💻 **Claude Code Mode** → control avanzado mediante generación y ejecución de código  
+
+También se introdujeron conceptos fundamentales que forman la base del ecosistema:
+
+- 🔌 **Connectors** → integración con herramientas externas  
+- 🧩 **MCP Servers** → extensibilidad avanzada mediante integraciones personalizadas  
+- 🧠 **Skills** → workflows estructurados y reutilizables  
+- ❓ **Clarification Behavior** → comportamiento normal del modelo cuando requiere más contexto  
+
+Comprender estas piezas es fundamental antes de avanzar hacia la instalación y el uso práctico de **Claude Code**, ya que permite entender no solo cómo usar la herramienta, sino también **cuándo usar cada modo correctamente**.
+
+En el siguiente capítulo se realizará la **instalación paso a paso de Claude Code**, utilizando un entorno basado en:
+
+- 🖥️ **VMware**
+- 🐉 **Kali Linux**
+- 🧰 **VS Code**
+
+Este entorno permitirá trabajar de forma aislada, reproducible y segura, facilitando el desarrollo de laboratorios y workflows reales con **Claude Code**.
 
 
 
