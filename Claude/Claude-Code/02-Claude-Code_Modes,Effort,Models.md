@@ -17,52 +17,28 @@
 
 # 📄 `Index`
 
-
-
 - [🎛️ Claude Code: `Modes`](#️-claude-code-modes)
-
   - [🧠 ¿Qué son los Modes?](#-qué-son-los-modes)
-
   - [🧠 Plan Mode (Modo de Planeación)](#-plan-mode-modo-de-planeación)
-
   - [🙋 Ask Before Edits (Modo Recomendado por Defecto)](#-ask-before-edits-modo-recomendado-por-defecto)
-
   - [✏️ Edit Automatically (Modo de Ejecución Directa)](#️-edit-automatically-modo-de-ejecución-directa)
-
   - [⚡ Auto Mode (Modo Inteligente)](#-auto-mode-modo-inteligente)
-
   - [☠️ Bypass Permissions (Modo Avanzado)](#️-bypass-permissions-modo-avanzado)
-
   - [🧠 Estrategia Inteligente para Ahorrar Tokens](#-estrategia-inteligente-para-ahorrar-tokens)
 
-
-
 - [🧠⚙️ Claude Code Effort Levels](#️-claude-code-effort-levels)
-
   - [🔄 ¿Qué es un Loop Iterativo?](#-qué-es-un-loop-iterativo)
-
   - [📊 Niveles de Effort](#-niveles-de-effort)
-
   - [🟢 Low Effort (Rápido y Económico)](#-low-effort-rápido-y-económico)
-
   - [🟡 Medium Effort (Modo Balanceado)](#-medium-effort-modo-balanceado)
-
   - [🔴 High Effort (Máxima Calidad)](#-high-effort-máxima-calidad)
-
   - [🎯 Estrategia Inteligente de Uso de Effort](#-estrategia-inteligente-de-uso-de-effort)
-
   - [🧠 Effort vs Modes (Relación Importante)](#️-effort-vs-modes-relación-importante)
 
-
-
 - [📂 Contexto Adicional (Muy Importante)](#-contexto-adicional-muy-importante)
-
   - [⚡ Slash Commands Relacionados con Effort](#️-slash-commands-relacionados-con-effort)
 
-
-
 - [🧠 Claude Code Models (Haiku, Sonnet, Opus)](#-claude-code-models-haiku-sonnet-opus)
-
 
 # 🎛️ Claude Code: `Modes, Effort & Models`
 
