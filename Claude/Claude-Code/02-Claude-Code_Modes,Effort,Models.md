@@ -1,4 +1,4 @@
-# 🚀🌐🔐 Anthropic - Claude Code: `Modes & Effort`
+# 🚀🌐🔐 Anthropic - Claude Code: `Modes, Effort & Models`
 
 ![My Video](https://user-images.githubusercontent.com/94720207/165892585-b830998d-d7c5-43b4-a3ad-f71a07b9077e.gif)
 
@@ -19,7 +19,10 @@
 
 
 
-# 🎛️ Claude Code Modes (Permisos y Control de Ejecución)
+# 🎛️ Claude Code: `Modes, Effort & Models`
+
+
+# 🎛️ Claude Code: `Modes`
 
 Uno de los conceptos más importantes dentro de **Claude Code** es el uso correcto de los **Modes**.
 
@@ -245,6 +248,289 @@ Los **Modes** no solo controlan permisos, también influyen en:
 Por esta razón, dominar los **Modes** es una de las habilidades más importantes al trabajar con **Claude Code**.
 
 
+
+
+
+
+
+
+
+
+
+
+
+# 🧠⚙️ Claude Code Effort Levels
+
+Además de los **Modes**, Claude Code permite ajustar el nivel de **Effort**, que define **cuánto esfuerzo computacional realizará Claude para completar una tarea**.
+
+<img width="341" height="251" alt="image" src="https://github.com/user-attachments/assets/6481e4cf-9142-4718-b379-798a8c677a58" />
+
+Este parámetro controla directamente:
+
+* 🔄 Número de **iteraciones internas (loops)**
+* 🧠 Nivel de refinamiento del resultado
+* 💰 Consumo de **tokens**
+* ⏱️ Tiempo de ejecución
+
+Comprender cómo usar correctamente el **Effort** permite obtener mejores resultados sin desperdiciar recursos.
+
+
+## 🔄 ¿Qué es un Loop Iterativo?
+
+Un concepto fundamental para entender **Effort** es el **loop iterativo**.
+
+Un **loop** es un ciclo interno que Claude ejecuta repetidamente para mejorar un resultado hasta que alcanza un nivel aceptable.
+
+Ejemplo conceptual:
+
+```text
+1️⃣ Generar resultado inicial
+2️⃣ Evaluar resultado
+3️⃣ Detectar mejoras posibles
+4️⃣ Aplicar mejoras
+5️⃣ Repetir proceso
+```
+
+Este proceso se repite varias veces dependiendo del **Effort seleccionado**.
+
+**Este comportamiento es una de las principales diferencias entre:**
+
+* 🤖 Un **chatbot simple**
+* 🧠 Un **AI agent iterativo**
+
+
+
+## 📊 Niveles de Effort
+
+| Effort Level | Iteraciones | Consumo de Tokens | Calidad esperada | Uso típico       |
+| ------------ | ----------- | ----------------- | ---------------- | ---------------- |
+| 🟢 Low       | Pocas       | Bajo              | Básica           | Tareas rápidas   |
+| 🟡 Medium    | Moderadas   | Medio             | Balanceada       | Uso general      |
+| 🔴 High      | Muchas      | Alto              | Alta calidad     | Tareas complejas |
+
+
+
+## 🟢 Low Effort (Rápido y Económico)
+
+El modo **Low Effort** ejecuta pocos loops internos.
+
+Esto significa:
+
+* ⚡ Respuesta rápida
+* 💰 Bajo consumo de tokens
+* 🧠 Menor refinamiento
+
+### 🎯 Cuándo usarlo
+
+Ideal para:
+
+* Pruebas rápidas
+* Cambios pequeños
+* Ediciones simples
+* Validaciones rápidas
+
+### 🧪 Ejemplo práctico
+
+```text
+Fix indentation errors in this file.
+```
+
+No requiere análisis profundo.
+
+
+
+## 🟡 Medium Effort (Modo Balanceado)
+
+Este es el modo más equilibrado y generalmente recomendado.
+
+Realiza un número moderado de loops.
+
+Esto permite:
+
+* ⚖️ Balance entre velocidad y calidad
+* 🧠 Mejora progresiva del resultado
+* 💰 Consumo moderado de tokens
+
+### 🎯 Cuándo usarlo
+
+Ideal para:
+
+* Desarrollo diario
+* Refactorización moderada
+* Generación de código estándar
+
+Este suele ser el **modo recomendado por defecto**.
+
+
+
+## 🔴 High Effort (Máxima Calidad)
+
+El modo **High Effort** ejecuta múltiples iteraciones internas.
+
+Esto permite:
+
+* 🧠 Mayor refinamiento
+* 🔍 Mejor razonamiento
+* 🎯 Resultados más precisos
+
+Pero implica:
+
+* 💰 Mayor consumo de tokens
+* ⏱️ Mayor tiempo de ejecución
+
+### 🎯 Cuándo usarlo
+
+Ideal para:
+
+* Generación de proyectos completos
+* Diseño complejo
+* Refactorizaciones grandes
+* One-shot prompts importantes
+
+Ejemplo:
+
+```text
+Create a full modular Python project with documentation and tests.
+```
+
+Aquí sí vale la pena invertir más loops.
+
+
+
+## 🎯 Estrategia Inteligente de Uso de Effort
+
+Una buena práctica es **ajustar el Effort según la fase del proyecto**.
+
+Workflow recomendado:
+
+```text
+Exploración → Low
+Desarrollo → Medium
+Producción → High
+```
+
+Esto evita:
+
+* consumo excesivo
+* resultados innecesariamente complejos
+* pérdida de tiempo
+
+
+
+##  🧠 Effort vs Modes (Relación Importante)
+
+Effort y Modes trabajan juntos.
+
+Ejemplo típico:
+
+```text
+Plan mode + High effort
+```
+
+Resultado:
+
+👉 Plan detallado
+👉 Análisis profundo
+👉 Sin modificar archivos
+
+Otro ejemplo:
+
+```text
+Edit automatically + Low effort
+```
+
+Resultado:
+
+👉 Cambios rápidos
+👉 Sin análisis profundo
+
+Esta combinación permite crear workflows muy eficientes.
+
+
+
+# 📂 Contexto Adicional (Muy Importante)
+
+Dentro de la interfaz también existen opciones relacionadas con **contexto y archivos**, que influyen indirectamente en el Effort.
+
+Por ejemplo:
+
+* 📎 Adjuntar archivos
+* 📄 Incluir documentos
+* 📚 Agregar contexto adicional
+* 🌐 Habilitar uso de navegador web
+
+Agregar más contexto permite:
+
+* mejorar precisión
+* reducir iteraciones innecesarias
+* optimizar resultados
+
+Esto es especialmente útil cuando Claude necesita comprender proyectos completos. 
+
+
+
+## ⚡ Slash Commands Relacionados con Effort
+
+Claude Code permite usar comandos rápidos mediante:
+
+```text
+/
+```
+
+Esto abre opciones como:
+
+* cambiar modelo
+* ajustar Effort
+* limpiar contexto
+* cambiar modo
+* gestionar memoria
+
+Ejemplos comunes:
+
+```text
+/clear
+/model
+/effort
+/context
+```
+
+Estos comandos permiten ajustar el comportamiento del sistema en tiempo real.
+
+
+
+
+
+# 🧠 Claude Code Models (Haiku, Sonnet, Opus)
+
+El nivel de Effort también interactúa con el **modelo seleccionado**.
+
+Modelos comunes:
+
+| Model     | Características    | Uso recomendado  |
+| --------- | ------------------ | ---------------- |
+| ⚡ Haiku   | Rápido y económico | Tareas simples   |
+| ⚖️ Sonnet | Balanceado         | Uso general      |
+| 🧠 Opus   | Avanzado           | Tareas complejas |
+
+Un modelo más avanzado combinado con **High Effort** produce resultados más sofisticados, pero consume más recursos. 
+
+Para la mayoría de workflows, el patrón recomendado es:
+
+```text
+Low → Medium → High
+```
+
+Primero:
+
+* probar rápido
+  Luego:
+
+* refinar
+  Finalmente:
+
+* perfeccionar
+
+Este enfoque maximiza calidad y minimiza desperdicio de tokens.
 
 
 
